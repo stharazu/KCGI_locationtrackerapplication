@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.rajutrackingapp.rajutrackingapp.com.example.tulsi.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/satelit_id"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        android:contentDescription="@string/image_satelit"
+        android:src="@drawable/placeholder4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="119dp"
+        android:fontFamily="@font/lobster"
+        android:text="Location Tracker"
+        android:textAllCaps="true"
+        android:textColor="@color/colorSatelit"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/satelit_id"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="14dp"
+        android:fontFamily="serif"
+        android:text="Track your KCGI friend's location"
+        android:textColor="@color/colorSatelit"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/button_sign_in"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="103dp"
+        android:layout_marginBottom="117dp"
+        android:background="@color/colorSatelit"
+        android:onClick="Signin"
+        android:text="Launch Tracker"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

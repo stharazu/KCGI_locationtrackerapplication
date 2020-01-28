@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="400dp"
+    android:layout_margin="5dp"
+    android:layout_weight="2"
+    android:background="@drawable/messageshape"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/usernameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:padding="5dp"
+        android:text="Mr. James Yu"
+        android:textColor="#536DFE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/messageText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:text="Good job"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:text="9:15 pm"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/rajuText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="5dp"
+        android:padding="5dp"
+        android:text="Raju Shrestha"
+        android:textColor="#536DFE"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rajuMessageText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="15dp"
+        android:text="Good job"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="5dp"
+        android:text="9:16 pm"
+        android:textColor="#000000" />
+
+</LinearLayout>

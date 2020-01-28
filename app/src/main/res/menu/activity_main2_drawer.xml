@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/contact"
+            android:title="Contacts" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/message"
+            android:title="Messenger" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/alram"
+            android:title="Alram by Call" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/loc"
+            android:title="Share Location" />
+
+        <item android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_person"
+            />
+    </group>
+
+</menu>
